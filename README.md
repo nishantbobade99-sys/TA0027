@@ -1,12 +1,12 @@
-# Asra 🛡️
+# NIVI 🛡️
 
 **A Privacy-First Safety Companion for Women**
 
-Asra is a mobile safety system that watches for unusual patterns in how you use your phone during emergencies—without watching *what* you do. No AI black boxes. No constant listening. Just transparent, rule-based protection that kicks in only when you need it.
+NIVI is a mobile safety system that watches for unusual patterns in how you use your phone during emergencies—without watching *what* you do. No AI black boxes. No constant listening. Just transparent, rule-based protection that kicks in only when you need it.
 
 ---
 
-## Why Asra Exists
+## Why NIVI Exists
 
 Traditional safety apps have a problem: they either wait for you to press a panic button (which assumes you can), or they use creepy always-on monitoring that feels invasive. Many rely on ML algorithms that make decisions you can't understand or trust.
 
@@ -34,7 +34,7 @@ Think of it as a protective layer you turn on when you need extra security—wal
 
 ---
 
-## What Asra Watches For
+## What NIVI Watches For
 
 Asra tracks six behavioral signals that might indicate distress. **None of these involve reading your content:**
 
@@ -45,7 +45,7 @@ Asra tracks six behavioral signals that might indicate distress. **None of these
 5. **Unexpected Route Changes** → Suddenly veering off your usual path or navigation route
 6. **Desperate Battery Usage** → Heavily using your phone when battery is critically low (<10%)
 
-Each signal gets a score from 0 to 1. Scores fade over time if your behavior normalizes. **No single signal triggers an alert**—Asra waits for multiple patterns to persist before asking if you're okay.
+Each signal gets a score from 0 to 1. Scores fade over time if your behavior normalizes. **No single signal triggers an alert**—NIVI waits for multiple patterns to persist before asking if you're okay.
 
 ---
 
@@ -97,9 +97,9 @@ This isn't voice recognition AI. It's a simple keyword matcher that runs locally
 
 ---
 
-## What Makes Asra Different
+## What Makes NIVI Different
 
-| Feature | Traditional Safety Apps | Asra |
+| Feature | Traditional Safety Apps | NIVI |
 |---------|------------------------|------|
 | **Trigger Method** | Manual panic button only | Automatic detection + manual button |
 | **Detection Logic** | Single event triggers | Multiple signals must persist |
@@ -112,7 +112,7 @@ This isn't voice recognition AI. It's a simple keyword matcher that runs locally
 
 ## Privacy Promise
 
-**What Asra NEVER does:**
+**What NIVI NEVER does:**
 - ❌ Read your messages, emails, or typed content
 - ❌ Record your conversations
 - ❌ Access your camera without permission
@@ -120,7 +120,7 @@ This isn't voice recognition AI. It's a simple keyword matcher that runs locally
 - ❌ Share your data with third parties
 - ❌ Monitor you when Shadow Mode is OFF
 
-**What Asra does collect (only in Shadow Mode):**
+**What  NIVI does collect (only in Shadow Mode):**
 - ✅ Timestamps of screen on/off events
 - ✅ App foreground/background transitions (app names only)
 - ✅ Device orientation changes
@@ -149,7 +149,7 @@ All metadata stays in your phone's RAM and is erased when you turn Shadow Mode o
 
 ## Current Limitations
 
-Asra is a **research prototype**, not a bulletproof safety guarantee. Here's what it can't do:
+NIVI is a **research prototype**, not a bulletproof safety guarantee. Here's what it can't do:
 
 - ❌ **Can't predict danger before it happens** (we're not psychic)
 - ❌ **Can't detect danger in all scenarios** (false negatives will happen)
@@ -180,7 +180,7 @@ npx react-native run-ios
 ```
 
 ### First-Time Setup
-1. Open Asra and create an account
+1. Open NIVI and create an account
 2. Add at least one trusted contact (verified phone number)
 3. Grant location and sensor permissions
 4. Toggle Shadow Mode ON when you want protection
@@ -249,14 +249,14 @@ This project draws from research in:
 
 ⚠️ **Important Legal Notice:**
 
-Asra is a **prototype research project** and is provided "as-is" without warranty. It is **not a substitute for emergency services, personal safety training, or professional security.**
+NIVI is a **prototype research project** and is provided "as-is" without warranty. It is **not a substitute for emergency services, personal safety training, or professional security.**
 
 - The system may fail to detect danger (false negatives)
 - The system may alert when you're safe (false positives)
 - Battery drain, network issues, or OS restrictions may prevent escalation
 - **Always call emergency services directly if you are in immediate danger**
 
-By using Asra, you acknowledge that the developers are not liable for harm, injury, or loss resulting from system failures or limitations.
+By using NIVI, you acknowledge that the developers are not liable for harm, injury, or loss resulting from system failures or limitations.
 
 ---
 
@@ -264,17 +264,7 @@ By using Asra, you acknowledge that the developers are not liable for harm, inju
 
 MIT License (see `LICENSE.md`)
 
-**Free for educational, research, and non-commercial use.** If you want to use Asra in a commercial product, please contact us.
-
----
-
-## Contact & Support
-
-- **Issues:** [GitHub Issues](https://github.com/srujakwarbhuvan/Team-Rogue-/issues)
-- **Discussions:** [GitHub Discussions](https://github.com/srujakwarbhuvan/Team-Rogue-/discussions)
-- **Email:** srujakwarbhuvan06@gmail.com,yashthokne184@gmail.com,prasannatawandhe@gmail.com
-  
-
+**Free for educational, research, and non-commercial use.** If you want to use NIVI in a commercial product, please contact us.
 
 ---
 
